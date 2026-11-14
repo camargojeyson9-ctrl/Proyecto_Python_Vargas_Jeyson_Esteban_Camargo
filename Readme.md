@@ -3,7 +3,7 @@ Este archivo se encarga exclusivamente de interactuar con el usuario a través d
 
 Funciones principales:
 
-Mostrar el menú de bienvenida y la pantalla de Login. OK
+Mostrar el menú de bienvenida y la pantalla de Login. 
 
 Mostrar el menú principal según el rol (médico o administrativo).
 
@@ -14,13 +14,13 @@ Aquí concentras todas las operaciones y reglas que pide la clínica, sin tocar 
 
 Funciones principales:
 
-Autenticación: Validar si el correo y la contraseña coinciden. OK
+Autenticación: Validar si el correo y la contraseña coinciden. 
 
-Inicialización: Verificar si existe el archivo de usuarios y, si está vacío o no existe, crear automáticamente al usuario Admin con los datos obligatorios. OK
+Inicialización: Verificar si existe el archivo de usuarios y, si está vacío o no existe, crear automáticamente al usuario Admin con los datos obligatorios. 
 
-Gestión de Pacientes: Validar y estructurar la información del nuevo paciente. OK
+Gestión de Pacientes: Validar y estructurar la información del nuevo paciente. 
 
-Diagnóstico y Prescripción: Agrupar los síntomas, la patología y la prescripción médica (medicamento, cantidad, dosis, días) y estructurar el diccionario que se convertirá en JSON. OK
+Diagnóstico y Prescripción: Agrupar los síntomas, la patología y la prescripción médica (medicamento, cantidad, dosis, días) y estructurar el diccionario que se convertirá en JSON. 
 
 Historia Clínica: Buscar por número de identificación y armar el consolidado de consultas anteriores del paciente.
 
@@ -29,9 +29,9 @@ Un archivo pequeño dedicado únicamente a la manipulación de los archivos .jso
 
 Funciones principales:
 
-Una función genérica para leer datos de cualquier archivo JSON (devolviendo una lista o diccionario). OK
+Una función genérica para leer datos de cualquier archivo JSON (devolviendo una lista o diccionario). 
 
-Una función genérica para guardar o actualizar datos en un archivo JSON. OK
+Una función genérica para guardar o actualizar datos en un archivo JSON. 
 
 Esto evita que tengas que repetir código de manejo de archivos en el resto de la aplicación.
 
